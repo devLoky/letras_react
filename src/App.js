@@ -30,7 +30,7 @@ function App() {
       // guardarLetra(resultado.data.lyrics);
     }
     consultarApiLetra();
-  }, [busquedaletra, info]);
+  }, [busquedaletra]);
 
   return (
       <Fragment>
